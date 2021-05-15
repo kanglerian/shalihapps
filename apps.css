@@ -1,0 +1,31 @@
+* {
+  font-family: "Nunito", sans-serif;
+}
+.nav-item {
+  margin: 0px 10px;
+  font-size: 15px;
+}
+
+.btn-signup {
+  padding: 5px 30px !important;
+  background-color: #fcc450;
+  border-radius: 0.5rem;
+}
+
+.bg-time {
+  background-color: #949aef;
+}
+
+.bg-time.active {
+  background-color: #3c43a4;
+}
+
+#timeShalat {
+  margin-top: 0px !important;
+}
+
+@media (min-width: 768px) {
+  #timeShalat {
+    margin-top: -200px !important;
+  }
+}

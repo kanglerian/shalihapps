@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous" />
+    <!-- Icon Bootstrap -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" />
+    <!-- Font Google -->
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,300;0,400;0,700;1,400&display=swap" rel="stylesheet" />
+    <!-- AOS -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <!-- Apps CSS -->
+    <link rel="stylesheet" href="./apps.css" />
+    <title>Shalih Apps</title>
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark py-3 fixed-top" style="background-color: #32388d">
+      <div class="container">
+        <a class="navbar-brand" href="#">Shalih<strong>Apps</strong></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav mx-auto text-center">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Beranda</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#panduanIbadah">Panduan Ibadah</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Dzikir</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Do'a</a>
+            </li>
+          </ul>
+          <ul class="navbar-nav ml-auto text-center">
+            <li class="nav-item">
+              <a class="nav-link" href="#">Masuk</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link btn btn-signup btn-sm text-dark" href="#">Daftar</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- End Navbar -->
+
+    <section id="banner" style="background-color: #2c3281; overflow: hidden; padding-top: 150px">
+      <div class="container">
+        <div class="jumbotron">
+          <div class="row justify-content-center">
+            <div class="col-md-7 align-self-center">
+              <h2 class="display-6 text-white fw-bold" data-aos="fade-right">Panduan Ibadah <br />Agar Hidup Lebih Bermakna</h2>
+              <p class="lead text-white fw-light" data-aos="fade-left">Mencapai kehidupan yang berkah di dunia dan di akhirat.</p>
+              <a class="btn btn-signup" href="#" role="button" style="padding: 7px 40px !important" data-aos="fade-up">Jelajahi sekarang!</a>
+            </div>
+            <div class="d-none d-md-block col-md-5 align-self-center">
+              <img src="./img/kabah.png" alt="" class="img-banner" />
+            </div>
+          </div>
+        </div>
+      </div>
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+        <path
+          fill="#fff"
+          fill-opacity="1"
+          d="M0,128L48,154.7C96,181,192,235,288,224C384,213,480,139,576,144C672,149,768,235,864,256C960,277,1056,235,1152,181.3C1248,128,1344,64,1392,32L1440,0L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"
+        ></path>
+      </svg>
+    </section>
+
+    <section id="timeShalat" style="margin-top: -200px; margin-bottom: 100px">
+      <div class="container">
+        <div class="row justify-content-center text-center">
+          <div class="col-md-8">
+            <div class="bg-white pt-3 px-4" style="border-radius: 0.5rem; box-shadow: 21px 18px 24px rgba(0, 0, 0, 0.15)">
+              <div class="row justify-content-center">
+                <div class="col-6 col-md-2">
+                  <p class="badge fs-6 text-dark" style="background-color: #fcc450"><i class="bi bi-smartwatch"></i> Sekarang</p>
+                  <p>04:30 WIB</p>
+                </div>
+                <div class="col-6 col-md-2">
+                  <p class="badge bg-time fs-6">Shubuh</p>
+                  <p>04:30 WIB</p>
+                </div>
+                <div class="col-6 col-md-2">
+                  <p class="badge bg-time fs-6">Dzuhur</p>
+                  <p>11:55 WIB</p>
+                </div>
+                <div class="col-6 col-md-2">
+                  <p class="badge bg-time fs-6">Ashar</p>
+                  <p>15:05 WIB</p>
+                </div>
+                <div class="col-6 col-md-2">
+                  <p class="badge bg-time active fs-6">Maghrib</p>
+                  <p>17:59 WIB</p>
+                </div>
+                <div class="col-6 col-md-2">
+                  <p class="badge bg-time fs-6">Isya</p>
+                  <p>19:13 WIB</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Panduan Ibadah -->
+    <section id="panduanIbadah" style="overflow: hidden">
+      <div class="container">
+        <div class="row justify-content-center text-center mb-4">
+          <div class="col">
+            <h2 class="fw-bold" data-aos="fade-right">Panduan Ibadah</h2>
+            <p data-aos="fade-left">Memperbaiki hidup dibalut dengan As-Sunnah</p>
+          </div>
+        </div>
+        <div class="panduan-card row justify-content-center text-center">
+          <div class="col-md-4">
+            <div class="card" style="border: 0px; border-radius: 20px; box-shadow: 11px 15px 30px rgba(0, 0, 0, 0.05) !important">
+              <img src="./img/panduan/doa.jpg" class="card-img-top" alt="..." style="border-radius: 20px 20px 0px 0px" />
+              <div class="card-body py-4">
+                <h5 class="fw-bold">Panduan Dzikir Pagi & Petang</h5>
+                <p class="fs-6">Lindungi diri dari syaithan di pagi hari dan petang, dan juga sebab diberkahi rezeki</p>
+                <a href="#" class="btn btn-signup">Buka panduan</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card" style="border: 0px; border-radius: 20px; box-shadow: 11px 15px 30px rgba(0, 0, 0, 0.05) !important">
+              <img src="./img/panduan/dzikir.jpg" class="card-img-top" alt="..." style="border-radius: 20px 20px 0px 0px" />
+              <div class="card-body py-4">
+                <h5 class="fw-bold">Panduan Dzikir Pagi & Petang</h5>
+                <p class="fs-6">Lindungi diri dari syaithan di pagi hari dan petang, dan juga sebab diberkahi rezeki</p>
+                <a href="#" class="btn btn-signup">Buka panduan</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card" style="border: 0px; border-radius: 20px; box-shadow: 11px 15px 30px rgba(0, 0, 0, 0.05) !important">
+              <img src="./img/panduan/muslimah.jpg" class="card-img-top" alt="..." style="border-radius: 20px 20px 0px 0px" />
+              <div class="card-body py-4">
+                <h5 class="fw-bold">Panduan Dzikir Pagi & Petang</h5>
+                <p class="fs-6">Lindungi diri dari syaithan di pagi hari dan petang, dan juga sebab diberkahi rezeki</p>
+                <a href="#" class="btn btn-signup">Buka panduan</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+        <path
+          fill="#2c3281"
+          fill-opacity="1"
+          d="M0,96L80,96C160,96,320,96,480,106.7C640,117,800,139,960,128C1120,117,1280,75,1360,53.3L1440,32L1440,320L1360,320C1280,320,1120,320,960,320C800,320,640,320,480,320C320,320,160,320,80,320L0,320Z"
+        ></path>
+      </svg>
+    </section>
+    <!-- End Panduan Ibadah -->
+
+    <!-- Remember -->
+    <section id="pengingatHarian" style="background-color: #2c3281" style="overflow: hidden">
+      <div class="container">
+        <div class="row justify-content-center text-center mb-4">
+          <div class="col">
+            <h2 class="fw-bold text-white" data-aos="fade-right">Panduan Ibadah</h2>
+            <p data-aos="fade-left" class="text-white">Memperbaiki hidup dibalut dengan As-Sunnah</p>
+          </div>
+        </div>
+        <div class="row justify-content-center mb-5">
+          <div class="col-md-8">
+            <div class="bg-white p-4" style="border-radius: 1rem" data-aos="fade-up">
+              <div class="row justify-content-center mb-3">
+                <div class="col">
+                  <p style="text-align: justify">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus nulla quod, officia corrupti vel asperiores culpa quia beatae fuga. Placeat nam impedit enim nisi. Maiores quo nulla deleniti, provident vero aperiam
+                    voluptates ipsum dicta quaerat commodi? Ex, quasi. Consectetur impedit quasi, qui debitis neque vitae modi veritatis sunt incidunt inventore. Ipsam, saepe voluptas. Modi, beatae deleniti. Consequuntur ab, excepturi
+                    libero, beatae ea adipisci quasi nesciunt consequatur eaque atque, commodi recusandae rerum repellendus ipsa amet quae cum alias numquam repudiandae ex incidunt sequi earum? Laboriosam voluptas similique incidunt a
+                    excepturi reiciendis, sint quos eius officia, culpa ratione error! Non, numquam voluptatibus?
+                  </p>
+                </div>
+              </div>
+              <div class="row justify-content-between">
+                <div class="col-md-4">
+                  <a href="#" class="btn btn-signup btn-sm mb-3" data-aos="fade-up" data-aos-delay="100">Baca penjelasan</a>
+                </div>
+                <div class="col-md-4">
+                  <p class="badge bg-secondary" data-aos="fade-up" data-aos-delay="200">#harian</p>
+                  <p class="badge bg-secondary" data-aos="fade-up" data-aos-delay="300">#hadist</p>
+                  <p class="badge bg-secondary" data-aos="fade-up" data-aos-delay="400">#rezeki</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row justify-content-center text-center" style="overflow: hidden">
+          <div class="col" data-aos="fade-left" data-aos-delay="500">
+            <a href="#" class="text-white fw-light">lihat selengkapnya...</a>
+          </div>
+        </div>
+      </div>
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+        <path
+          fill="#fff"
+          fill-opacity="1"
+          d="M0,192L48,197.3C96,203,192,213,288,229.3C384,245,480,267,576,250.7C672,235,768,181,864,181.3C960,181,1056,235,1152,234.7C1248,235,1344,181,1392,154.7L1440,128L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"
+        ></path>
+      </svg>
+    </section>
+    <!-- End Remember -->
+
+    <!-- kajian -->
+    <section id="kajian" style="overflow: hidden">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-md-6">
+            <img src="./img/palestine.jpg" alt="" class="img-fluid rounded my-3" data-aos="fade-right" />
+          </div>
+          <div class="col-md-6 align-self-center" style="overflow: hidden">
+            <h3 class="fw-bold" data-aos="fade-left">Masjid Al-Aqsa, Do’a untuk Palestina</h3>
+            <p style="text-align: justify; text-indent: 40px" data-aos="fade-right">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum, beatae eaque! Animi ullam facere voluptates magnam recusandae, voluptatibus necessitatibus reprehenderit porro consequatur quae ex corrupti velit tempore nemo
+              laboriosam aperiam molestiae officia voluptatum illum suscipit ab.
+            </p>
+            <a href="#" class="btn btn-signup" data-aos="fade-up">Tonton selengkapnya</a>
+          </div>
+        </div>
+        <div class="row justify-content-center text-center mt-4" style="overflow: hidden">
+          <div class="col" data-aos="fade-left" data-aos-delay="500">
+            <a href="#" class="text-dark fw-light">lihat selengkapnya...</a>
+          </div>
+        </div>
+      </div>
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+        <path
+          fill="#2c3281"
+          fill-opacity="1"
+          d="M0,192L48,197.3C96,203,192,213,288,229.3C384,245,480,267,576,250.7C672,235,768,181,864,181.3C960,181,1056,235,1152,234.7C1248,235,1344,181,1392,154.7L1440,128L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"
+        ></path>
+      </svg>
+    </section>
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.1/gsap.min.js"></script>
+    <script>
+      const panduanImage = document.querySelectorAll(".card");
+
+      panduanImage.forEach((div, i) => {
+        div.dataset.aos = "fade-up";
+        div.dataset.aosDelay = i * 150;
+      });
+
+      AOS.init({
+        duration: 800,
+      });
+    </script>
+    <script>
+      gsap.from(".img-banner", { duration: 2, delay: 0, y: -500, ease: "bounce" });
+      gsap.from("#timeShalat", { duration: 3, delay: 0.5, y: -1000, ease: "elastic" });
+    </script>
+  </body>
+</html>
