@@ -24,6 +24,10 @@
   margin-top: 0px !important;
 }
 
+section {
+  padding-top: 6rem;
+}
+
 @media (min-width: 768px) {
   #timeShalat {
     margin-top: -200px !important;

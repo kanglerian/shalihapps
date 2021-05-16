@@ -18,35 +18,35 @@
     <link rel="stylesheet" href="./apps.css" />
     <title>Shalih Apps</title>
   </head>
-  <body>
+  <body id="home">
     <!-- Navbar -->
     <nav class="navbar navbar-expand-lg navbar-dark py-3 fixed-top" style="background-color: #32388d">
       <div class="container">
-        <a class="navbar-brand" href="#">Shalih<strong>Apps</strong></a>
+        <a class="navbar-brand" href="#home">Shalih<strong>Apps</strong></a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav mx-auto text-center">
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#">Beranda</a>
+              <a class="nav-link active" aria-current="page" href="#home">Beranda</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#panduanIbadah">Panduan Ibadah</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Dzikir</a>
+              <a class="nav-link" href="#pengingatHarian">Pengingat Harian</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Do'a</a>
+              <a class="nav-link" href="#kajian">Kajian</a>
             </li>
           </ul>
           <ul class="navbar-nav ml-auto text-center">
             <li class="nav-item">
-              <a class="nav-link" href="#">Masuk</a>
+              <a class="nav-link" href="#login">Masuk</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link btn btn-signup btn-sm text-dark" href="#">Daftar</a>
+              <a class="nav-link btn btn-signup btn-sm text-dark" href="#login">Daftar</a>
             </li>
           </ul>
         </div>
@@ -58,12 +58,12 @@
       <div class="container pb-3">
         <div class="jumbotron">
           <div class="row justify-content-center">
-            <div class="col-md-7 align-self-center">
+            <div class="col-12 col-md-6 align-self-center">
               <h2 class="display-6 text-white fw-bold" data-aos="fade-right">Panduan Ibadah <br />Agar Hidup Lebih Bermakna</h2>
               <p class="lead text-white fw-light" data-aos="fade-left">Mencapai kehidupan yang berkah di dunia dan di akhirat.</p>
-              <a class="btn btn-signup" href="#" role="button" style="padding: 7px 40px !important" data-aos="fade-up">Jelajahi sekarang!</a>
+              <a class="btn btn-signup" href="#panduanIbadah" role="button" style="padding: 7px 40px !important" data-aos="fade-up">Jelajahi sekarang!</a>
             </div>
-            <div class="d-none d-md-block col-md-5 align-self-center">
+            <div class="d-none d-md-block col-md-6 align-self-center">
               <img src="./img/kabah.png" alt="" class="img-banner" />
             </div>
           </div>
@@ -78,33 +78,33 @@
       </svg>
     </section>
 
-    <section id="timeShalat" style="margin-top: -200px; margin-bottom: 100px">
+    <section id="timeShalat" style="position: relative; top: -100px">
       <div class="container">
         <div class="row justify-content-center text-center">
-          <div class="col-md-8">
+          <div class="col-12 col-md-8">
             <div class="bg-white pt-3 px-4" style="border-radius: 0.5rem; box-shadow: 21px 18px 24px rgba(0, 0, 0, 0.15)">
               <div class="row justify-content-center">
-                <div class="col-6 col-md-2">
+                <div class="col-6 col-md-6 col-lg-2">
                   <p class="badge fs-6 text-dark" style="background-color: #fcc450"><i class="bi bi-smartwatch"></i> Sekarang</p>
                   <p>04:30 WIB</p>
                 </div>
-                <div class="col-6 col-md-2">
+                <div class="col-6 col-md-6 col-lg-2">
                   <p class="badge bg-time fs-6">Shubuh</p>
                   <p>04:30 WIB</p>
                 </div>
-                <div class="col-6 col-md-2">
+                <div class="col-6 col-md-6 col-lg-2">
                   <p class="badge bg-time fs-6">Dzuhur</p>
                   <p>11:55 WIB</p>
                 </div>
-                <div class="col-6 col-md-2">
+                <div class="col-6 col-md-6 col-lg-2">
                   <p class="badge bg-time fs-6">Ashar</p>
                   <p>15:05 WIB</p>
                 </div>
-                <div class="col-6 col-md-2">
+                <div class="col-6 col-md-6 col-lg-2">
                   <p class="badge bg-time active fs-6">Maghrib</p>
                   <p>17:59 WIB</p>
                 </div>
-                <div class="col-6 col-md-2">
+                <div class="col-6 col-md-6 col-lg-2">
                   <p class="badge bg-time fs-6">Isya</p>
                   <p>19:13 WIB</p>
                 </div>
@@ -119,13 +119,13 @@
     <section id="panduanIbadah">
       <div class="container">
         <div class="row justify-content-center text-center mb-4" style="overflow: hidden">
-          <div class="col">
+          <div class="col-12">
             <h2 class="fw-bold" data-aos="fade-right">Panduan Ibadah</h2>
             <p data-aos="fade-left">Memperbaiki hidup dibalut dengan As-Sunnah</p>
           </div>
         </div>
         <div class="panduan-card row justify-content-center text-center">
-          <div class="col-md-4 mb-3">
+          <div class="col-12 col-md-6 col-lg-4 mb-3">
             <div class="card" style="border: 0px; border-radius: 20px; box-shadow: 11px 15px 30px rgba(0, 0, 0, 0.05) !important">
               <img src="./img/panduan/doa.jpg" class="card-img-top" alt="..." style="border-radius: 20px 20px 0px 0px" />
               <div class="card-body py-4">
@@ -135,22 +135,22 @@
               </div>
             </div>
           </div>
-          <div class="col-md-4 mb-3">
+          <div class="col-12 col-md-6 col-lg-4 mb-3">
             <div class="card" style="border: 0px; border-radius: 20px; box-shadow: 11px 15px 30px rgba(0, 0, 0, 0.05) !important">
               <img src="./img/panduan/dzikir.jpg" class="card-img-top" alt="..." style="border-radius: 20px 20px 0px 0px" />
               <div class="card-body py-4">
-                <h5 class="fw-bold">Panduan Dzikir Pagi & Petang</h5>
-                <p class="fs-6">Lindungi diri dari syaithan di pagi hari dan petang, dan juga sebab diberkahi rezeki</p>
+                <h5 class="fw-bold">Panduan Dzikir ba'da Shalat</h5>
+                <p class="fs-6">Raih fadhilah dzikir setelah shalat, dan lakukan sesuai dengan As-Sunnah</p>
                 <a href="#" class="btn btn-signup">Buka panduan</a>
               </div>
             </div>
           </div>
-          <div class="col-md-4 mb-3">
+          <div class="col-12 col-md-6 col-lg-4 mb-3">
             <div class="card" style="border: 0px; border-radius: 20px; box-shadow: 11px 15px 30px rgba(0, 0, 0, 0.05) !important">
               <img src="./img/panduan/muslimah.jpg" class="card-img-top" alt="..." style="border-radius: 20px 20px 0px 0px" />
               <div class="card-body py-4">
-                <h5 class="fw-bold">Panduan Dzikir Pagi & Petang</h5>
-                <p class="fs-6">Lindungi diri dari syaithan di pagi hari dan petang, dan juga sebab diberkahi rezeki</p>
+                <h5 class="fw-bold">Fiqih Mu'amalah</h5>
+                <p class="fs-6">Cari tahu apa saja hukum-hukum syar'i yang berkaitan dengan muamalah</p>
                 <a href="#" class="btn btn-signup">Buka panduan</a>
               </div>
             </div>
@@ -171,29 +171,28 @@
     <section id="pengingatHarian" style="background-color: #2c3281">
       <div class="container">
         <div class="row justify-content-center text-center mb-4" style="overflow: hidden">
-          <div class="col">
-            <h2 class="fw-bold text-white" data-aos="fade-right">Panduan Ibadah</h2>
-            <p data-aos="fade-left" class="text-white">Memperbaiki hidup dibalut dengan As-Sunnah</p>
+          <div class="col-12">
+            <h2 class="fw-bold text-white" data-aos="fade-right">Pengingat Harian</h2>
+            <p data-aos="fade-left" class="text-white">Kalau hadist Rasulullaah dan firman Allah ta’ala tidak mampu menggerakan hatimu, lantas apalagi?</p>
           </div>
         </div>
         <div class="row justify-content-center mb-5" style="overflow: hidden">
-          <div class="col-md-8">
+          <div class="col-12 col-lg-8">
             <div class="bg-white p-4" style="border-radius: 1rem" data-aos="fade-left">
               <div class="row justify-content-center mb-3">
-                <div class="col">
+                <div class="col-12">
                   <p style="text-align: justify">
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus nulla quod, officia corrupti vel asperiores culpa quia beatae fuga. Placeat nam impedit enim nisi. Maiores quo nulla deleniti, provident vero aperiam
-                    voluptates ipsum dicta quaerat commodi? Ex, quasi. Consectetur impedit quasi, qui debitis neque vitae modi veritatis sunt incidunt inventore. Ipsam, saepe voluptas. Modi, beatae deleniti. Consequuntur ab, excepturi
-                    libero, beatae ea adipisci quasi nesciunt consequatur eaque atque, commodi recusandae rerum repellendus ipsa amet quae cum alias numquam repudiandae ex incidunt sequi earum? Laboriosam voluptas similique incidunt a
-                    excepturi reiciendis, sint quos eius officia, culpa ratione error! Non, numquam voluptatibus?
+                    Dari Ibnu ‘Umar radhiyallahu ‘anhuma berkata: Rasulullah shallallahu ‘alaihi wa sallam memegang kedua pundakku, lalu bersabda, “Jadilah engkau di dunia seperti orang asing atau seorang musafir.” Ibnu ‘Umar radhiyallahu
+                    ‘anhuma berkata, “Jika kamu memasuki sore hari, maka jangan menunggu pagi hari. Jika kamu memasuki pagi hari, maka jangan menunggu sore hari. Manfaatkanlah sehatmu sebelum sakitmu, dan hidupmu sebelum matimu.” (HR.
+                    Bukhari, no. 6416)
                   </p>
                 </div>
               </div>
-              <div class="row justify-content-between">
-                <div class="col-md-4">
+              <div class="row justify-content-center text-center">
+                <div class="col-md-6 align-self-center">
                   <a href="#" class="btn btn-signup btn-sm mb-3" data-aos="fade-up" data-aos-delay="100">Baca penjelasan</a>
                 </div>
-                <div class="col-md-4">
+                <div class="col-md-6 align-self-center">
                   <p class="badge bg-secondary" data-aos="fade-up" data-aos-delay="200">#harian</p>
                   <p class="badge bg-secondary" data-aos="fade-up" data-aos-delay="300">#hadist</p>
                   <p class="badge bg-secondary" data-aos="fade-up" data-aos-delay="400">#rezeki</p>
@@ -222,10 +221,21 @@
     <section id="kajian" style="overflow: hidden">
       <div class="container">
         <div class="row justify-content-center">
-          <div class="col-md-6">
-            <img src="./img/palestine.jpg" alt="" class="img-fluid rounded my-3" data-aos="zoom-in" />
+          <div class="col-12 col-lg-6 text-center mb-3">
+            <div>
+              <iframe
+                width="100%"
+                height="330px"
+                src="https://www.youtube.com/embed/7JkvYbrB0Vo"
+                title="YouTube video player"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen
+                class="rounded"
+              ></iframe>
+            </div>
           </div>
-          <div class="col-md-6 align-self-center" style="overflow: hidden">
+          <div class="col-12 col-lg-6 align-self-center" style="overflow: hidden">
             <h3 class="fw-bold" data-aos="fade-left">Masjid Al-Aqsa, Do’a untuk Palestina</h3>
             <p style="text-align: justify; text-indent: 40px" data-aos="fade-right">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum, beatae eaque! Animi ullam facere voluptates magnam recusandae, voluptatibus necessitatibus reprehenderit porro consequatur quae ex corrupti velit tempore nemo
@@ -240,6 +250,41 @@
           </div>
         </div>
       </div>
+    </section>
+
+    <!-- Form login -->
+    <section id="login" style="overflow: hidden">
+      <div class="container">
+        <div class="row justify-content-center text-center mb-5">
+          <div class="col-8">
+            <h2 class="fw-bold text-dark" data-aos="fade-right">Coba ShalihApps Gratis!</h2>
+          </div>
+        </div>
+        <div class="row justify-content-center text-center">
+          <div class="col-12 col-lg-4">
+            <div class="d-grid gap-2 col-12 mx-auto mb-3" data-aos="fade-up" data-aos-delay="100">
+              <button class="btn btn-outline-secondary" type="button"><i class="bi bi-google"></i> Login with Google</button>
+            </div>
+            <div class="mb-3" data-aos="fade" data-aos-delay="200">
+              <p>Or</p>
+            </div>
+            <form>
+              <div class="mb-3" data-aos="fade-right" data-aos-delay="300">
+                <input type="email" class="form-control" placeholder="Email" />
+              </div>
+              <div class="mb-5" data-aos="fade-left" data-aos-delay="400">
+                <input type="password" class="form-control" placeholder="Password" />
+              </div>
+              <div class="d-grid gap-2 col-12 mx-auto mb-3" data-aos="fade-up" data-aos-delay="500">
+                <button class="btn btn-dark" type="button">Login</button>
+              </div>
+              <div class="d-grid gap-2 col-12 mx-auto" data-aos="fade-right" data-aos-delay="600">
+                <a href="#">Sign Up with Email</a>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
         <path
           fill="#2c3281"
@@ -248,8 +293,9 @@
         ></path>
       </svg>
     </section>
+    <!-- End form login -->
 
-    <footer style="background-color: #2c3281" class="pt-5 pb-2">
+    <footer style="background-color: #2c3281; overflow: hidden" class="pt-5 pb-2">
       <div class="container">
         <div class="row justify-content-center">
           <div class="col text-center">
