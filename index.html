@@ -131,7 +131,7 @@
               <div class="card-body py-4">
                 <h5 class="fw-bold">Panduan Dzikir Pagi & Petang</h5>
                 <p class="fs-6">Lindungi diri dari syaithan di pagi hari dan petang, dan juga sebab diberkahi rezeki</p>
-                <a href="#" class="btn btn-signup">Buka panduan</a>
+                <a href="#" class="btn btn-signup" data-bs-toggle="modal" data-bs-target="#notAvailable">Buka panduan</a>
               </div>
             </div>
           </div>
@@ -141,7 +141,7 @@
               <div class="card-body py-4">
                 <h5 class="fw-bold">Panduan Dzikir ba'da Shalat</h5>
                 <p class="fs-6">Raih fadhilah dzikir setelah shalat, dan lakukan sesuai dengan As-Sunnah</p>
-                <a href="#" class="btn btn-signup">Buka panduan</a>
+                <a href="#" class="btn btn-signup" data-bs-toggle="modal" data-bs-target="#notAvailable">Buka panduan</a>
               </div>
             </div>
           </div>
@@ -151,7 +151,7 @@
               <div class="card-body py-4">
                 <h5 class="fw-bold">Fiqih Mu'amalah</h5>
                 <p class="fs-6">Cari tahu apa saja hukum-hukum syar'i yang berkaitan dengan muamalah</p>
-                <a href="#" class="btn btn-signup">Buka panduan</a>
+                <a href="#" class="btn btn-signup" data-bs-toggle="modal" data-bs-target="#notAvailable">Buka panduan</a>
               </div>
             </div>
           </div>
@@ -190,7 +190,7 @@
               </div>
               <div class="row justify-content-center text-center">
                 <div class="col-md-6 align-self-center">
-                  <a href="#" class="btn btn-signup btn-sm mb-3" data-aos="fade-up" data-aos-delay="100">Baca penjelasan</a>
+                  <a href="#" class="btn btn-signup btn-sm mb-3" data-aos="fade-up" data-aos-delay="100" data-bs-toggle="modal" data-bs-target="#notAvailable">Baca penjelasan</a>
                 </div>
                 <div class="col-md-6 align-self-center">
                   <p class="badge bg-secondary" data-aos="fade-up" data-aos-delay="200">#harian</p>
@@ -203,7 +203,7 @@
         </div>
         <div class="row justify-content-center text-center" style="overflow: hidden">
           <div class="col" data-aos="fade-left" data-aos-delay="500">
-            <a href="#" class="text-white fw-light">lihat selengkapnya...</a>
+            <a href="#" class="text-white fw-light" data-bs-toggle="modal" data-bs-target="#notAvailable">lihat selengkapnya...</a>
           </div>
         </div>
       </div>
@@ -241,12 +241,12 @@
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum, beatae eaque! Animi ullam facere voluptates magnam recusandae, voluptatibus necessitatibus reprehenderit porro consequatur quae ex corrupti velit tempore nemo
               laboriosam aperiam molestiae officia voluptatum illum suscipit ab.
             </p>
-            <a href="#" class="btn btn-signup" data-aos="zoom-in">Tonton selengkapnya</a>
+            <a href="#" class="btn btn-signup" data-aos="zoom-in" data-bs-toggle="modal" data-bs-target="#notAvailable">Tonton selengkapnya</a>
           </div>
         </div>
         <div class="row justify-content-center text-center mt-4" style="overflow: hidden">
           <div class="col" data-aos="fade-left" data-aos-delay="500">
-            <a href="#" class="text-dark fw-light">lihat selengkapnya...</a>
+            <a href="#" class="text-dark fw-light" data-bs-toggle="modal" data-bs-target="#notAvailable">lihat selengkapnya...</a>
           </div>
         </div>
       </div>
@@ -263,7 +263,7 @@
         <div class="row justify-content-center text-center">
           <div class="col-12 col-lg-4">
             <div class="d-grid gap-2 col-12 mx-auto mb-3" data-aos="fade-up" data-aos-delay="100">
-              <button class="btn btn-outline-secondary" type="button"><i class="bi bi-google"></i> Login with Google</button>
+              <button class="btn btn-outline-secondary" type="button" data-bs-toggle="modal" data-bs-target="#notAvailable"><i class="bi bi-google"></i> Login with Google</button>
             </div>
             <div class="mb-3" data-aos="fade" data-aos-delay="200">
               <p>Or</p>
@@ -276,10 +276,10 @@
                 <input type="password" class="form-control" placeholder="Password" />
               </div>
               <div class="d-grid gap-2 col-12 mx-auto mb-3" data-aos="fade-up" data-aos-delay="500">
-                <button class="btn btn-dark" type="button">Login</button>
+                <button class="btn btn-dark" type="button" data-bs-toggle="modal" data-bs-target="#notAvailable">Login</button>
               </div>
               <div class="d-grid gap-2 col-12 mx-auto" data-aos="fade-right" data-aos-delay="600">
-                <a href="#">Sign Up with Email</a>
+                <a href="#" data-bs-toggle="modal" data-bs-target="#notAvailable">Sign Up with Email</a>
               </div>
             </form>
           </div>
@@ -304,6 +304,16 @@
         </div>
       </div>
     </footer>
+
+    <!-- Modal -->
+    <div class="modal fade" id="notAvailable" tabindex="-1">
+      <div class="modal-dialog modal-lg">
+        <div class="alert alert-danger alert-dismissible fade show text-center">
+          Mohon maaf, untuk fiturnya masih dalam pengembangan 😊🙏
+          <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+        </div>
+      </div>
+    </div>
 
     <!-- Option 1: Bootstrap Bundle with Popper -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
